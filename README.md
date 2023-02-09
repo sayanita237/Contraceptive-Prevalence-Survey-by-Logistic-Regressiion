@@ -16,3 +16,12 @@ Data Dictionary:
 8. Standard-of-living index (categorical) 1=verlow, 2, 3, 4=high
 9. Media exposure (binary) Good, Not good
 10. Contraceptive method used (class attribute) No,Yes
+
+2.1 Data Ingestion: Read the dataset. Do the descriptive statistics and do null value condition check, check for duplicates and outliers and write an inference on it. Perform Univariate and Bivariate Analysis and Multivariate Analysis.
+
+2.2 Do not scale the data. Encode the data (having string values) for Modelling. Data Split: Split the data into train and test (70:30). Apply Logistic Regression and build multiple models with different predictors.
+
+2.3 Performance Metrics: Check the performance of Predictions on Train and Test sets using Accuracy, Confusion Matrix, Plot ROC curve and get ROC_AUC score for each model Final Model: Compare Both the models and write inference which model is best/optimized.
+
+2.4 Inference: Basis on these predictions, what are the insights and recommendations.
+Please explain and summarise the various steps performed in this project. There should be proper business interpretation and actionable insights present.
